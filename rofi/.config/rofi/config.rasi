@@ -1,0 +1,5 @@
+configuration {
+    modi: "window,drun";
+    font: "Mononoki Nerd Font Mono 12";
+}
+@theme "tokyo_night"

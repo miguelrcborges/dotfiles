@@ -1,0 +1,43 @@
+// Made by me, base from: https://github.com/davatorium/rofi-themes/tree/master/User%20Themes
+* {
+  background-color: #1A1B26;
+  border-color: #F7768E;
+  text-color: #C0CAF5;
+  spacing: 0;
+  width: 512px;
+}
+
+inputbar {
+  border: 1px 1px 1px 1px;
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 16px;
+}
+
+textbox {
+  background-color: #2e343f;
+  border: 0 0 1px 0;
+  border-color: #282C33;
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 1px 1px 1px;
+  padding: 16px;
+}
+
+element selected, element-text selected {
+  background-color: #2E343F;
+}
