@@ -126,3 +126,6 @@ super + ctrl + p
 
 super + ctrl + r
 	alacritty -e ranger
+
+Print
+	gnome-screenshot -i
