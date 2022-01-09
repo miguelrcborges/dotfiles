@@ -143,6 +143,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/miguel/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["wal.vim"] = {
+    loaded = true,
+    path = "/home/miguel/.local/share/nvim/site/pack/packer/start/wal.vim",
+    url = "https://github.com/dylanaraps/wal.vim"
   }
 }
 
