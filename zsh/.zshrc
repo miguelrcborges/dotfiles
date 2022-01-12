@@ -16,6 +16,5 @@ alias xq="xbps-query -Rs"
 alias xr="sudo xbps-remove -R"
 alias vi="nvim"
 
-(cat $HOME/.config/wpg/sequences &)
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
