@@ -27,17 +27,3 @@ colors:
     magenta: '0x{color13.strip}'
     cyan:    '0x{color14.strip}'
     white:   '0x{color15.strip}'
-
-
-background_opacity: 0.99
-font:
-  normal:
-    family: Mononoki Nerd Font Mono
-
-  size: 13
-
-
-window:
-  padding:
-    x: 15
-    y: 15
