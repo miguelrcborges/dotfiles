@@ -19,6 +19,7 @@ set ignorecase
 set smartcase
 set incsearch " Highlight while building search expression
 set scrolloff=8
+set sidescrolloff=30
 
 
 " Start loading plugins
