@@ -6,7 +6,7 @@ set expandtab
 syntax on " Syntax highlight
 set ruler " Always shows location in file (line#)
 set smarttab " Autotabs for certain code
-"set termguicolors 
+set termguicolors 
 
 set number
 set relativenumber
@@ -24,11 +24,11 @@ set scrolloff=8
 " Start loading plugins
 call plug#begin()
 
-" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'preservim/nerdtree'
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 call plug#end()
 
