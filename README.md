@@ -8,7 +8,7 @@ Personal dotfiles.
 ### Windows
 
 1. Clone the repo 
-2. Inside bash/gitbash, run `sh update_config.sh`
+2. Run `update_config.bat` 
 
 
 ### Linux
