@@ -21,6 +21,7 @@ set incsearch " Highlight while building search expression
 set scrolloff=8
 set sidescrolloff=30
 
+set signcolumn=yes " Good to show erros with LSP
 
 " Start loading plugins
 call plug#begin()
@@ -31,7 +32,11 @@ Plug 'preservim/nerdtree'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
+
+
 Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-nvim-lsp'
