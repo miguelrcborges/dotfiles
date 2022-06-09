@@ -5,6 +5,8 @@ export PS1="\e[1;32m\u \e[0;36m\w \e[1;31m>\e[0m "
 
 # Alias
 
+alias vi='nvim'
+alias vim='nvim'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
