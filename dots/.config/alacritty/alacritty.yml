@@ -1,0 +1,28 @@
+import:
+  - ~/.config/alacritty/colors.yml
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Medium
+
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+
+  size: 13
+
+window:
+  padding:
+    x: 15
+    y: 15
+
+  opacity: 0.99
