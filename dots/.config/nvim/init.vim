@@ -46,4 +46,4 @@ Plug 'neovim/nvim-lspconfig'
 call plug#end()
 
 let g:tokyonight_style = "night"
-colorscheme tokyonight
+colorscheme catppuccin
