@@ -1,5 +1,5 @@
 configuration{
-    modi: "run,drun";
+    modi: "run,drun,window";
     lines: 5;
     font: "JetBrainsMono Nerd Font 14";
     show-icons: true;
