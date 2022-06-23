@@ -11,6 +11,11 @@ super + Escape
 super + alt + {q,r}
 	bspc {quit,wm -r}
 
+alt + Tab
+  rofi -show window
+
+super + shift + s
+  maim -s -u | xclip -selection clipboard -t image/png -i
 
 # Window layouts and killing I guess
 #
@@ -45,6 +50,3 @@ super + alt + {h,j,k,l}
 ## contract a window by moving one of its side inward
 super + alt + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
-
-alt + Tab
-  rofi -show window

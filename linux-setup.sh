@@ -1,4 +1,5 @@
-sudo pacman -S bspwm sxhkd xorg xorg-xinit stow rofi alacritty feh wireplumber pipewire pipewire-alsa pipewire-jack pipewire-pulse pulsemixer
+sudo pacman -S bspwm sxhkd xorg xorg-xinit stow rofi alacritty feh wireplumber pipewire pipewire-alsa pipewire-jack pipewire-pulse pulsemixer maim xclip
+
 systemctl enable --user pipewire --now
 systemctl enable --user pipewire-pulse --now
 
