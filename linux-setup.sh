@@ -1,4 +1,8 @@
-sudo pacman -S bspwm sxhkd xorg xorg-xinit stow rofi alacritty feh
+sudo pacman -S bspwm sxhkd xorg xorg-xinit stow rofi alacritty feh wireplumber pipewire pipewire-alsa pipewire-jack pipewire-pulse pulsemixer
+systemctl enable --user pipewire --now
+systemctl enable --user pipewire-pulse --now
+systemctl enable --user pipewire-alsa --now
+
 git clone https://github.com/miguelrcborges/dotfiles
 cd
 rm .bashrc
