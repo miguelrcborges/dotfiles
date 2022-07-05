@@ -5,6 +5,10 @@ xrandr --output DP-4 --mode 1920x1080 --rate 144.00 --pos 0x0 --output DVI-D-0 -
 xsetroot -cursor_name left_ptr
 feh --bg-scale ~/Wallpapers/cat-sound.png
 
+killall polybar
+polybar DP-4 &
+polybar DVI-D-0 &
+
 bspc monitor DP-4 -d I II III IV V 
 bspc monitor DVI-D-0 -d VI VII VIII IX X
 

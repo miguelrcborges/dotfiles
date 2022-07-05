@@ -17,6 +17,9 @@ alt + Tab
 super + shift + s
   maim -s -u | xclip -selection clipboard -t image/png -i
 
+super + Tab
+  setxkbmap $(echo -e "us\npt" | rofi -dmenu -p "Set keyboard")
+
 # Window layouts and killing I guess
 #
 ## close and kill
