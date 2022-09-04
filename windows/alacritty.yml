@@ -1,0 +1,29 @@
+import:
+  - C:\Users\Miguel Borges\AppData\Roaming\alacritty\catppuccin.yml
+
+font:
+  normal:
+    family: JetBrains Mono
+    style: Medium
+
+  bold:
+    family: JetBrains Mono
+    style: Bold
+
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+  size: 13
+
+window:
+  padding:
+    x: 15
+    y: 15
+
+shell:
+  program: bash
