@@ -1,7 +1,5 @@
 # Shell prompt
-
-export PS1="\e[1;32m\u \e[0;36m\w \e[1;31m>\e[0m " 
-
+export PS1="\[$(tput setaf 2)\]\u\[$(tput setaf 3)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 6)\]\w \[$(tput setaf 1)\]> \[$(tput sgr0)\]"
 
 # Alias
 

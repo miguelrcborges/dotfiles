@@ -20,6 +20,9 @@ super + shift + s
 super + Tab
   setxkbmap $(echo -e "us\npt" | rofi -dmenu -p "Set keyboard")
 
+super + m
+  pulsemixer --id source-52 --toggle-mute
+
 # Window layouts and killing I guess
 #
 ## close and kill

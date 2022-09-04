@@ -4,6 +4,7 @@ xrandr --output DP-4 --mode 1920x1080 --rate 144.00 --pos 0x0 --output DVI-D-0 -
 
 xsetroot -cursor_name left_ptr
 feh --bg-scale ~/Wallpapers/cat-sound.png
+sxhkd &
 
 killall polybar
 polybar DP-4 &
