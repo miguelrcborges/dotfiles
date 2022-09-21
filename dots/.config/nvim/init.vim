@@ -18,14 +18,12 @@ set nowrap
 set ignorecase
 set smartcase
 set incsearch " Highlight while building search expression
-set scrolloff=8
+set scrolloff=8 
 set sidescrolloff=30
-
 set signcolumn=yes " Good to show erros with LSP
 
 " Start loading plugins
 call plug#begin()
-
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
@@ -33,7 +31,7 @@ Plug 'preservim/nerdtree'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
-
+Plug 'windwp/nvim-autopairs'
 
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-vsnip'
@@ -42,7 +40,6 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'neovim/nvim-lspconfig'
-
 call plug#end()
 
 let g:tokyonight_style = "night"
