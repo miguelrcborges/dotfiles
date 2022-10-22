@@ -12,6 +12,7 @@ alias ls='ls --color=auto'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias ssh='kitty +kitten ssh'
 
 # Vi mode <on startup is on insert mode>
 set -o vi
