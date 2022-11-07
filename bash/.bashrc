@@ -13,6 +13,8 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias ssh='kitty +kitten ssh'
+alias lwine='WINEPREFIX="$(pwd)/winecfg" wine'
+alias klwine='WINEPREFIX="$(pwd)/winecfg" wineserver -k'
 
 # Vi mode <on startup is on insert mode>
 set -o vi
