@@ -1,7 +1,7 @@
 " Set tabsize to 2 spaces
 set shiftwidth=2
 set tabstop=2
-set expandtab
+" set expandtab " Commented because I want to insert tabs instead of spaces
 
 syntax on " Syntax highlight
 set ruler " Always shows location in file (line#)
@@ -24,9 +24,9 @@ set signcolumn=yes " Good to show erros with LSP
 
 " Start loading plugins
 call plug#begin()
+Plug 'sainnhe/gruvbox-material'
+
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'preservim/nerdtree'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -42,5 +42,4 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'neovim/nvim-lspconfig'
 call plug#end()
 
-let g:tokyonight_style = "night"
-colorscheme catppuccin-mocha
+colorscheme gruvbox-material

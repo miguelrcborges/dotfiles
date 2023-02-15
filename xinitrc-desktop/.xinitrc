@@ -12,6 +12,8 @@ export PATH=$PATH:~/.local/bin
 
 xrandr --output DP-4 --mode 1920x1080 --rate 144.00 --output DVI-D-0 --mode 1920x1080 --rate 144.00 --right-of DP-4
 
-feh --bg-scale ~/Wallpapers/dither-1988089278_Cyberpunk__City_night__Realistic__Wallpaper__4k__Retrowave__Synthwave__upscayl_4x_realesrgan-x4plus-anime.png
+feh --bg-scale ~/Wallpapers/gruvbox.jpg
+nvidia-settings --load-config-only
+
 xrdb .Xresources
 exec dwm
