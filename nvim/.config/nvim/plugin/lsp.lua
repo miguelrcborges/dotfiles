@@ -5,7 +5,7 @@ local servers = { 'gopls', 'clangd' }
 local on_attach = function(client, bufnr)
   local bufopts = { noremap = true, silent = true, buffer = bufnr }
 
-  vim.keymap.set('n', '<leader>fm', vim.lsp.buf.formatting, bufopts)
+  vim.keymap.set('n', '<leader>fm', vim.lsp.buf.format, bufopts)
   vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename, bufopts)
   vim.keymap.set('n', 'gd', vim.lsp.buf.definition, bufopts)
   vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, bufopts)
