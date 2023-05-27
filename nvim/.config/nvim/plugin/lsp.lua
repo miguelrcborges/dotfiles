@@ -1,6 +1,6 @@
 lsp = require("lspconfig")
 
-local servers = { 'gopls', 'clangd' }
+local servers = { 'gopls', 'clangd', 'tsserver' }
 
 local on_attach = function(client, bufnr)
   local bufopts = { noremap = true, silent = true, buffer = bufnr }
