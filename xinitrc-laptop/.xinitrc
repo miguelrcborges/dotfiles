@@ -5,11 +5,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-export GTK_THEME=Catppuccin-Mocha-Lavender-hdpi:dark
+export PATH=$PATH:~/STMicroeletronics/STM32Cube/STM32CubeProgrammer/bin
 
-export PATH=$PATH:~/.local/bin:~/STMicroeletronics/STM32Cube/STM32CubeProgrammer/bin
-
-setxkbmap pt
 feh --bg-scale ~/Wallpapers/gruvbox.jpg
 xrdb .Xresources
 sbar &
