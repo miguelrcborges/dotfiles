@@ -83,7 +83,7 @@ if has('nvim')
 lua <<EOF
 	lsp = require("lspconfig")
 
-	local servers = { "gopls", "clangd", "tsserver", "html", "jsonls", "cssls" }
+	local servers = { "gopls", "clangd", "tsserver", "html", "jsonls", "cssls", "pyright" }
 
 	local on_attach = function(client, bufnr)
 		local bufopts = { noremap = true, silent = true, buffer = bufnr }
