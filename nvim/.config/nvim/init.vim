@@ -66,13 +66,19 @@ nnoremap <C-h> :wincmd h<CR>
 nnoremap <C-j> :wincmd j<CR>
 nnoremap <C-k> :wincmd k<CR>
 nnoremap <C-l> :wincmd l<CR>
+nnoremap <leader><C-h> <C-w><S-h>
+nnoremap <leader><C-j> <C-w><S-j>
+nnoremap <leader><C-k> <C-w><S-k>
+nnoremap <leader><C-l> <C-w><S-l>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :bdelete<CR>
 nnoremap <leader><S-q> :bdelete!<CR>
+nnoremap <leader>t :terminal<CR>
 
 vnoremap > >gv
 vnoremap < <gv
 
+tnoremap <Esc><Esc> <C-\><C-n>
 
 
 """"""""""""""""""""""""""""""""
